@@ -592,7 +592,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "—";
 }
 
 .img-fluid {
@@ -640,11 +640,15 @@ progress {
 }
 
 @media (min-width: 576px) {
+  
   .container-sm, .container {
     max-width: 540px;
   }
 }
 @media (min-width: 768px) {
+  .flip-card-front{
+    height: 100px;
+  }
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
