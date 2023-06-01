@@ -15,7 +15,7 @@ export default class Homeslider extends Component {
 
   //   $(window).ready(Super);
     
-   
+   //
 
   // } 
 
